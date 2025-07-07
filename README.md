@@ -1,7 +1,5 @@
 # Pokédex Django Web App
 
-# Pokédex Django Web App
-
 A **Pokédex web application** built with Django. 
 This project dynamically fetches Pokémon data from [PokeAPI](https://pokeapi.co), stores it in a local database, and provides a clean interface to browse and search all Pokémon.
 
