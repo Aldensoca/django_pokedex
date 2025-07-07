@@ -1,0 +1,21 @@
+{% load static %}
+<style>
+    .navbar{
+        background-color: whitesmoke;
+    }
+</style>
+
+<nav class="navbar">
+    <div>
+        <a href="/" class="nav-logo">
+            <img src="{% static 'images/Resources/logo.png' %}" style='max-width: 120px;'>
+        </a>
+    </div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="{% url 'Pokedex' %}">Pokedéx</a></li>
+        </ul>
+    </div>
+</nav>
+<hr />
