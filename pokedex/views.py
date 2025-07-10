@@ -131,7 +131,6 @@ def filldb():
 def pokedex(request):
     #Preencher a DB, caso esteja vazia(substituível por exibir diretamente os dados recebidos pela API)
     if len(pokemon.objects.all()) < 1025:      # 1025 = Número de pokémons atualmente
-        render(request, 'loading.html')
         filldb()  
     else:
         #barra de pesquisa
